@@ -1,0 +1,114 @@
+.login-container {
+  height: 100vh;
+
+  padding: 200px 160px 283px 160px;
+  background-image: linear-gradient(
+    to right bottom,
+    purple,
+    red,
+    orange,
+    blue,
+    violet
+  );
+  gap: 0px;
+  opacity: 0px;
+  overflow: hidden;
+}
+.login-image {
+  width: 582px;
+  height: 373px;
+  top: 326px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+}
+.login-form {
+  width: 456px;
+  height: 458px;
+  top: 283px;
+  left: 824px;
+  padding-left: 40px;
+  padding-top: 40px;
+  gap: 0px;
+  opacity: 0px;
+  box-shadow: 0px 8px 40px 0px #07070714;
+}
+.form-input {
+  width: 360px;
+  height: 40px;
+  top: 24px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 9px;
+}
+.insta-logo {
+  width: 82px;
+  height: 42px;
+  top: 60px;
+  left: 187px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.logo-name {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+.username-input {
+  width: 360px;
+  height: 64px;
+  top: 194px;
+  left: 48px;
+  gap: 0px;
+  opacity: 0px;
+}
+.login-button {
+  width: 360px;
+  height: 40px;
+  top: 370px;
+  left: 48px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.err-msg {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: whitesmoke;
+  width: fit-content;
+}
+.logo-container {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .login-image {
+    display: none;
+  }
+  .login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, red, yellow, blue, pink);
+    opacity: 0.8;
+  }
+  .login-form {
+    font-family: Roboto;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    box-shadow: 0px 8px 40px 0px #07070714;
+  }
+}
