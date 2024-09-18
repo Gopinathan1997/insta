@@ -1,0 +1,65 @@
+.search-cont {
+  margin-top: 10px;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+}
+.fail-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.bg-blue {
+  margin-left: 200px;
+}
+.search-not-found {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #262626;
+}
+.search-para {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  text-align: center;
+  color: #989898;
+}
+.search-img {
+  width: 500px;
+  height: 409px;
+  align-self: center;
+  gap: 0px;
+  opacity: 0px;
+}
+.posts-container {
+  padding-left: 0%;
+  margin-left: 0%;
+}
+.failure_img {
+  height: 70px;
+  width: 70px;
+}
+@media screen and (max-width: 767px) {
+  .search-cont {
+    height: 100%;
+    width: 100%;
+  }
+  .fail-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg-blue{
+    margin-left: 10px;
+  }
+}
